@@ -13,7 +13,7 @@ class Sort{
 		//reading the number of elements in array
 		n=sc.nextInt();
 
-		//creates an array in memory of length n+1
+		//creates an array in memory of length n
 		String[] array = new String[n];	
 		System.out.println("Enter the strings of the array :");
 		for(i=0;i<n;i++){      
