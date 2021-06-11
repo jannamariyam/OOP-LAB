@@ -39,12 +39,12 @@ class Sort{
 			else if(ch==2){
 				for(i=0;i<n;i++)
 				{
-					for( j=i+1;j<array.length;j++)
+					for( j=0;j<n-i-1;j++)
 					{
-					if (array[i].compareTo(array[j])>0){   //swap elements if not in order
-						String temp= array[i];
-						array[i] = array[j];
-						array[j]=temp;
+					if (array[j].compareTo(array[j+1])>0){   //swap elements if not in order
+						String temp= array[j];
+						array[j] = array[j+1];
+						array[j+1]=temp;
 						}
 					}
 				}
@@ -100,6 +100,8 @@ Your sorted Array is :DAD I LOVE MY
 =================================================================================================================================================
  OUTPUT   2
 ====================================================================================================================================================
+C:\Users\jinu\JAVA PROGRAMS\Experiment 3>javac Ex3Prblm3.java
+
 C:\Users\jinu\JAVA PROGRAMS\Experiment 3>java Sort
 Enter number of strings you want to store :4
 Enter the strings of the array :
@@ -121,6 +123,28 @@ sorting methods
 2.User defined Method
 Enter Your choice :
 2
+Your sorted Array is :DAD I LOVE MY
+C:\Users\jinu\JAVA PROGRAMS\Experiment 3>java Sort
+Enter number of strings you want to store :4
+Enter the strings of the array :
+I
+LOVE
+MY
+DAD
+
+Your entered strings are
+************************
+I
+LOVE
+MY
+DAD
+
+sorting methods
+**************************
+1.in-built Method
+2.User defined Method
+Enter Your choice :
+1
 Your sorted Array is :DAD I LOVE MY
 
 =================================================================================================================================================
@@ -150,5 +174,4 @@ Enter Your choice :
 Invalid input
  You can't sort strings with out selecting a sorting method
 
-==========================================================================================================================================*/
-
+===================================================================================================================================================*\
