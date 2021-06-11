@@ -3,79 +3,122 @@
  array of strings.
 ==================================================================================================================================================*/
 
-import java.util.Scanner;
 import java.util.Arrays;
-class StringSort{
-	public static void main(String args[]){
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the no. of string : ");
-		int n=sc.nextInt();
-		String array[]=new String[n+1];
-		System.out.println("Enter a string :");
-		for(int i=0;i<=n;i++)
+import java.util.Scanner;
+class Sort{
+	public static void main(String[] args){
+		int n,i,j;
+		Scanner sc = new Scanner (System.in);
+		System.out.print("Enter number of strings you want to store :");
+
+		//reading the number of elements in array
+		n=sc.nextInt();
+
+		//creates an array in memory of length n+1
+		String[] array = new String[n+1];	
+		System.out.println("Enter the strings of the array :");
+		for(i=0;i<n+1;i++){      
+			//reading array elements from user	
 			array[i]=sc.nextLine();
-		System.out.println("Choice:");
-		System.out.println("1. Built-in method");
-		System.out.println("2. User defined method");
-		System.out.println("Enter your choice : ");
-		int ch=sc.nextInt();
-		switch(ch){
-			case 1: Arrays.sort(array); //builtin method to sort array
-				break;
-			case 2: for (int i = 0; i < n; i++)   //sorting using bubble sort
-            				for (int j = 0; j < n-i; j++)
-                				if (array[j].compareTo(array[j+1])>0)
-                				{
-                    					// swap array[j+1] and array[j]
-                    					String temp = array[j];
-                    					array[j] = array[j+1];
-                    					array[j+1] = temp;
-                				}
-				break;
-			default:System.out.println("Invalid Input");
-				break;
-		}
-		for(int i=0;i<array.length;i++)
-			System.out.print(array[i]+" ");
+			}
+		System.out.println("\nYour entered strings are");
+		System.out.println("************************");
+		//accessing array elements using for loop
+		for( i=0;i<n+1;i++){
+			System.out.println(array[i]);
+			}
+		System.out.println("sorting methods");
+		System.out.println("**************************");
+		System.out.println("1.in-built Method");
+		System.out.println("2.User defined Method");
+		System.out.println("Enter Your choice :");
+			int ch=sc.nextInt();
+
+			if(ch==1){
+				Arrays.sort(array) ;//in-built method
+			}
+			else if(ch==2){
+				for(i=0;i<n+1;i++)
+				{
+					for( j=i+1;j<array.length;j++)
+					{
+					if (array[i].compareTo(array[j])>0){   //swap elements if not in order
+						String temp= array[i];
+						array[i] = array[j];
+						array[j]=temp;
+						}
+					}
+				}
+				
+			}
+			else{
+				System.out.print("Invalid input");
+			}
+		System.out.print("Your sorted Array is :");
+				for( i=0;i<array.length;i++)
+				System.out.print(array[i]+" ");
 	}
 }
 
-/* OUTPUT
-=======================================================================================================================
-Microsoft Windows [Version 10.0.19041.985]
-(c) Microsoft Corporation. All rights reserved.
+/*=====================================================================================================================
+ OUTPUT 1
+=======================================================================================================================				
 
 C:\Users\jinu>cd C:\Users\jinu\JAVA PROGRAMS\Experiment 3
 
 C:\Users\jinu\JAVA PROGRAMS\Experiment 3>javac Ex3Prblm3.java
 
-C:\Users\jinu\JAVA PROGRAMS\Experiment 3>java StringSort
-Enter the no. of string :
-4
-Enter a string :
+C:\Users\jinu\JAVA PROGRAMS\Experiment 3>java Sort
+Enter number of strings you want to store :4
+Enter the strings of the array :
 I
-HAVE
-A
+LIKE
+RED
 CAR
-Choice:
-1. Built-in method
-2. User defined method
-Enter your choice :
-1
- A CAR HAVE I
 
-C:\Users\jinu\JAVA PROGRAMS\Experiment 3>java StringSort
-Enter the no. of string :
-4
-Enter a string :
+Your entered strings are
+************************
+
 I
-HAVE
-A
+LIKE
+RED
 CAR
-Choice:
-1. Built-in method
-2. User defined method
-Enter your choice :
+sorting methods
+**************************
+1.in-built Method
+2.User defined Method
+Enter Your choice :
 2
- A CAR HAVE I
-============================================================================================================================*/
+Your sorted Array is : CAR I LIKE RED
+
+=====================================================================================================================
+ OUTPUT  2
+=======================================================================================================================	
+C:\Users\jinu\JAVA PROGRAMS\Experiment 3>java Sort
+Enter number of strings you want to store :4
+Enter the strings of the array :
+I
+LIKE
+RED
+CAR
+
+Your entered strings are
+************************
+
+I
+LIKE
+RED
+CAR
+sorting methods
+**************************
+1.in-built Method
+2.User defined Method
+Enter Your choice :
+1
+Your sorted Array is : CAR I LIKE RED
+
+=======================================================================================================================*/
+		
+
+
+
