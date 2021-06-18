@@ -27,7 +27,8 @@ class Cpu{
 	
 		}
 	}
-
+}
+class Cpu1{
 	public static void main(String args[]){
 		Cpu c=new Cpu();
 		c.display_Inner();
@@ -38,15 +39,15 @@ class Cpu{
 /*
 Output:
 ================================================================================================================
-C:\Users\jinu>cd C:\Users\jinu\JAVA PROGRAMS\experiment 2
 
 C:\Users\jinu\JAVA PROGRAMS\experiment 2>javac Exp2Prblm5.java
 
-C:\Users\jinu\JAVA PROGRAMS\experiment 2>java Cpu
+C:\Users\jinu\JAVA PROGRAMS\experiment 2>java Cpu1
 Core    :    4
 Manufacturer   :   Intel Corporation
 Price    :   4500.0
 Memory    :   16 Gb
 Manufacturer    :   Intel
 
+C:\Users\jinu\JAVA PROGRAMS\experiment 2>
 ================================================================================================================*/
