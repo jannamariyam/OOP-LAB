@@ -31,7 +31,7 @@ class Teacher extends Employee{
 	}
 		
 	void display(Teacher array1[]){
-		System.out.println("Empid\t Name\t Address\t\t Salary\t Department\t Subject\t");
+		System.out.println("Empid\t Name\t\t Address\t Salary\t Department\t Subject\t");
 		for(Teacher a:array1){
 			System.out.println("\n"+a.Empid+"\t "+a.Name+"\t "+a.Address+"\t"+a.Salary+"\t "+a.Department+"\t "+a.Subject+"\n");
 		}
@@ -73,7 +73,6 @@ class EmployeeTeacher{
 /*==============================================================================================================================================
 OUTPUT
 ================================================================================================================================================Microsoft Windows [Version 10.0.19041.1052]
-(c) Microsoft Corporation. All rights reserved.
 
 C:\Users\jinu>cd C:\Users\jinu\JAVA PROGRAMS\Experiment 4
 
@@ -88,9 +87,9 @@ Enter EmpId :
 Enter Name :
 Anu
 Enter Address :
-Payod(H),Mavoor
+Shantham(H),Mavoor
 Enter Salary :
-24500
+23400
 Enter Department :
 Mathematics
 Enter Subject :
@@ -99,21 +98,24 @@ Please enter the details of Employee 2 :
 Enter EmpId :
 2
 Enter Name :
-Shana
+Jamnas
 Enter Address :
-Chempakam(H),Areekode
+Kunnath(H),Kondotty
 Enter Salary :
-45600
+34000
 Enter Department :
 Physics
 Enter Subject :
-Mechanics
-Empid    Name    Address                 Salary  Department      Subject
+Electronics
+Empid    Name            Address         Salary  Department      Subject
 
-1        Anu     Payod(H),Mavoor        24500    Mathematics     Statistics
+1        Anu     Shantham(H),Mavoor     23400    Mathematics     Statistics
 
 
-2        Shana   Chempakam(H),Areekode  45600    Physics         Mechanics
+2        Jamnas  Kunnath(H),Kondotty    34000    Physics         Electronics
+
+
+
 ==================================================================================================================================================*/
 
 
