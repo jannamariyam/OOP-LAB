@@ -92,56 +92,6 @@ Enter Subject : Literature
 Enter the details of Employee 2 :
 Enter EmpId : 2
 Enter Name : Swapna
-Enter Address : Thulika(H),Kondoty
-Enter Salary : 35000
-Enter Department : Chemistry
-Enter Subject : Thermodynamics
-Empid           Name            Address         Salary   Department      Subject
-
-1        Anu     Malika(H),Koduvalli     35600   English         Literature
-
-2        Swapna  Thulika(H),Kondoty      35000   Chemistry       Thermodynamics
-
-C:\Users\jinu\JAVA PROGRAMS\Experiment 4>javac Ex4Prblm1b.java
-
-C:\Users\jinu\JAVA PROGRAMS\Experiment 4>java EmployeeTeachers
-Enter the no. of employees :
-2
-Enter the details of Employee 1 :
-Enter EmpId : 1
-Enter Name : Anu
-Enter Address : Malika(H),Koduvalli
-Enter Salary : 35600
-Enter Department : English
-Enter Subject : Literature
-Enter the details of Employee 2 :
-Enter EmpId : 2
-Enter Name : Swapna
-Enter Address : Thulika(H),Kondotty
-Enter Salary : 35000
-Enter Department : Chemistry
-Enter Subject : Thermodynamics
-Empid    Name           Address  Salary  Department      Subject
-
-1        Anu     Malika(H),Koduvalli     35600   English         Literature
-
-2        Swapna  Thulika(H),Kondotty     35000   Chemistry       Thermodynamics
-
-C:\Users\jinu\JAVA PROGRAMS\Experiment 4>javac Ex4Prblm1b.java
-
-C:\Users\jinu\JAVA PROGRAMS\Experiment 4>java EmployeeTeachers
-Enter the no. of employees :
-2
-Enter the details of Employee 1 :
-Enter EmpId : 1
-Enter Name : Anu
-Enter Address : Malika(H),Koduvalli
-Enter Salary : 35600
-Enter Department : English
-Enter Subject : Literature
-Enter the details of Employee 2 :
-Enter EmpId : 2
-Enter Name : Swapna
 Enter Address : Thulika(H),Kondotty
 Enter Salary : 35000
 Enter Department : Chemistry
