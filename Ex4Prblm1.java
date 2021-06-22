@@ -48,19 +48,19 @@ class EmployeeTeacher{
 		Teacher teacher=new Teacher();
 		for(i=0;i<n;i++){
 			System.out.println("Please enter the details of Employee "+(i+1)+" :");
-			System.out.println("Enter EmpId : ");
+			System.out.print("Enter EmpId : ");
 			empid=sc.nextInt();
 			sc.nextLine();
-			System.out.println("Enter Name : ");
+			System.out.print("Enter Name : ");
 			name=sc.nextLine(); 
-			System.out.println("Enter Address : ");
+			System.out.print("Enter Address : ");
 			address=sc.nextLine();
-			System.out.println("Enter Salary : ");
+			System.out.print("Enter Salary : ");
 			salary=sc.nextInt();
 			sc.nextLine();
-			System.out.println("Enter Department : ");
+			System.out.print("Enter Department : ");
 			department=sc.nextLine();
-			System.out.println("Enter Subject : ");
+			System.out.print("Enter Subject : ");
 			subject=sc.nextLine();
 			
 			array2[i]=new Teacher(empid,name,address,salary,department,subject);
@@ -72,47 +72,43 @@ class EmployeeTeacher{
 }
 /*==============================================================================================================================================
 OUTPUT
-================================================================================================================================================Microsoft Windows [Version 10.0.19041.1052]
+================================================================================================================================================
 
 C:\Users\jinu>cd C:\Users\jinu\JAVA PROGRAMS\Experiment 4
 
 C:\Users\jinu\JAVA PROGRAMS\Experiment 4>javac Ex4Prblm1.java
 
+C:\Users\jinu\JAVA PROGRAMS\Experiment 4>java Employeeteacher
+Error: Could not find or load main class Employeeteacher
+Caused by: java.lang.NoClassDefFoundError: EmployeeTeacher (wrong name: Employeeteacher)
+
 C:\Users\jinu\JAVA PROGRAMS\Experiment 4>java EmployeeTeacher
 Enter the no. of employees :
 2
 Please enter the details of Employee 1 :
-Enter EmpId :
-1
-Enter Name :
-Anu
-Enter Address :
-Shantham(H),Mavoor
-Enter Salary :
-23400
-Enter Department :
-Mathematics
-Enter Subject :
-Statistics
+Enter EmpId : 1
+Enter Name : Anu
+Enter Address : Shantham(H),Mavoor
+Enter Salary : 25000
+Enter Department : Mathematics
+Enter Subject : Statistics
 Please enter the details of Employee 2 :
-Enter EmpId :
-2
-Enter Name :
-Jamnas
-Enter Address :
-Kunnath(H),Kondotty
-Enter Salary :
-34000
-Enter Department :
-Physics
-Enter Subject :
-Electronics
+Enter EmpId : 2
+Enter Name : Shana
+Enter Address : Kunnath(H),Kondotty
+Enter Salary : 35000
+Enter Department : Physics
+Enter Subject : Mechanics
 Empid    Name            Address         Salary  Department      Subject
 
-1        Anu     Shantham(H),Mavoor     23400    Mathematics     Statistics
+1        Anu     Shantham(H),Mavoor     25000    Mathematics     Statistics
 
 
-2        Jamnas  Kunnath(H),Kondotty    34000    Physics         Electronics
+2        Shana   Kunnath(H),Kondotty    35000    Physics         Mechanics
+
+
+
+================================================================================================================================================Microsoft Windows [Version 10.0.19041.1052]
 
 
 
