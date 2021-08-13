@@ -43,3 +43,4 @@ C:\Users\jinu\JAVA PROGRAMS\Experiment 5>java SportsStudentResult
 Academic score is:10
 Sports score is:25
 ===================================================================================================================================================*/
+//Verified
