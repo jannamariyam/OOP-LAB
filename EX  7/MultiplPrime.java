@@ -1,5 +1,6 @@
-/*1.Define 2 classes; one for generating multiplication table of 5 
-and other for displaying first N prime numbers. Implement using threads. (Thread class)*/
+/*===================================================================================================================================================
+1.Define 2 classes; one for generating multiplication table of 5  and other for displaying first N prime numbers. Implement using threads. (Thread class)
+=====================================================================================================================================================*/
 
 import java.util.*;
 class multitable extends Thread
@@ -65,3 +66,35 @@ public class MultiplPrime
 }
 }
 
+/*=====================================================================================================================================================
+OUTPUT
+=======================================================================================================================================================*/
+
+C:\Users\jinu>cd C:\Users\jinu\JAVA PROGRAMS\Experiment 7
+
+C:\Users\jinu\JAVA PROGRAMS\Experiment 7>javac MultiplPrime.java
+
+C:\Users\jinu\JAVA PROGRAMS\Experiment 7>java MultiplPrime
+Multiplication table of 5
+5X1=5
+Enter number of prime numbers:9
+2
+5X2=10
+3
+5X3=15
+5
+5X4=20
+7
+5X5=25
+11
+5X6=30
+13
+5X7=35
+17
+5X8=40
+19
+5X9=45
+23
+5X10=50
+
+===================================================================================================================================================*/
