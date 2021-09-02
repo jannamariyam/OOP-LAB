@@ -8,7 +8,7 @@ class LnkdLst
 {
   public static void main(String args[])
   {
-     LinkedList<String>llist=new LinkedList<String>();                         //created a linked list
+     LinkedList<String>llist=new LinkedList<String>();                        		 //created a linked list
      
       llist.add("Y");
       llist.add("H");
@@ -17,7 +17,7 @@ class LnkdLst
       llist.addLast("E");
       llist.addFirst("M");
 
-      System.out.println("Contents in linked list: "+llist);                  //printing elements
+      System.out.println("Contents in linked list: "+llist);                  			//printing elements
       
       llist.removeLast();
       System.out.println("\nAfter removing last element:"+llist);

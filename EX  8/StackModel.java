@@ -7,14 +7,14 @@ public class StackModel{
 public static void main(String args[]){
 	
 	Scanner s=new Scanner(System.in);
-	Stack<String> stack = new Stack<String>();				//create object for Stack
+	Stack<String> stack = new Stack<String>();						//create object for Stack
 	stack.push("Tiger");
 	stack.push("Lion");
 	stack.push("Cat");
 	stack.push("Dog");
 	stack.push("Cow");
 	
-	System.out.println("========================\nelements of stack\n=======================");		//print elements of stack using iterator
+	System.out.println("========================\nelements of stack\n=======================");	//print elements of stack using iterator
 	Iterator<String> itr=stack.iterator();
 	while(itr.hasNext())
 	{
@@ -27,7 +27,7 @@ public static void main(String args[]){
 	stack.removeElementAt(p-1);
 
 
-	itr=stack.iterator();										//print elements after removing one
+	itr=stack.iterator();									//print elements after removing one
 	System.out.println("\n===========================\nelements of stack after removing element\n===============================");    
 	while(itr.hasNext())
 	{
