@@ -26,3 +26,4 @@ C:\Users\jinu\JAVA PROGRAMS\Experiment 8>java PQueue
 The queue elements are:[Banu, Reshma, Zain]
 
 ===================================================================================================================================================*/
+Verified
