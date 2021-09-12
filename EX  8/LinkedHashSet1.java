@@ -1,4 +1,4 @@
-/*===================================================================================================================================================
+/*==================================================================================================================================================
 6. Program to demonstrate the creation of Set object using the LinkedHashset class
 ======================================================================================================================================================*/
 
@@ -28,18 +28,17 @@ public static void main(String args[]){
 output
 ===================================================================================================================================================
 
-C:\Users\jinu>cd C:\Users\jinu\JAVA PROGRAMS\Experiment 8
+C:\Users\jinu>cd C:\Users\jinu\JAVA PROGRAMS\git push\EX  8
 
-C:\Users\jinu\JAVA PROGRAMS\Experiment 8>javac  JavaCollection.java
+C:\Users\jinu\JAVA PROGRAMS\git push\EX  8>javac LinkedHashSet1.java
 
-C:\Users\jinu\JAVA PROGRAMS\Experiment 8>java  JavaCollection
+C:\Users\jinu\JAVA PROGRAMS\git push\EX  8>java LinkedHashSet1
 =========================================
 elements of set using LinkedHashset
 =========================================
 Apple
+Banana
 Plum
 Mango
-Banana
 
 =====================================================================================================================================================*/
-Linked Hashset?
