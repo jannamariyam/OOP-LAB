@@ -3,11 +3,11 @@
 ======================================================================================================================================================*/
 
 import java.util.*;
-public class JavaCollection{
+public class LinkedHashSet1{
 public static void main(String args[]){
 
-					//Creating HashSet and adding elements
-	HashSet<String> set=new HashSet<String>();
+					//Creating LinkedHashSet and adding elements
+	LinkedHashSet<String> set=new LinkedHashSet<String>();
 		set.add("Apple");
 		set.add("Banana");
 		set.add("Plum");

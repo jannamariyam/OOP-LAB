@@ -7,7 +7,7 @@ public class TwoSetCmpr {
 
     public static void main(String[] args) {
 
-        Set<String> set1 = new HashSet<>();			//create object set1 for HashSet and add elemts
+        Set<String> set1 = new HashSet<>();			//create object set1 for HashSet and add elements
 
         set1.add("Aa");
         set1.add("Bb");
@@ -16,7 +16,7 @@ public class TwoSetCmpr {
         set1.add("Ee");
 
 
-        Set<String> set2 = new HashSet<>();			//create object set2 for HashSet and add elemts
+        Set<String> set2 = new HashSet<>();			//create object set2 for HashSet and add elements
 
 
         set2.add("Aa");
@@ -25,7 +25,7 @@ public class TwoSetCmpr {
         set2.add("Dd");
         set2.add("Ee");
 	
-	System.out.println("===============\nelement of set1\n==============");		//print both selts elements
+	System.out.println("===============\nelement of set1\n==============");		//print both sets elements
 	for (String element : set1){
 		System.out.println(element);
 	}

@@ -113,26 +113,4 @@ After Sorting :
 6
 9
 
-C:\Users\jinu\JAVA PROGRAMS\Experiment 9>java Main
-Enter the number of elements : 4
-Enter 4 strings :
-qw
-a
-d
-x
-After Sorting :
-a
-d
-qw
-x
-Enter 4 integers :
-45
-6
-23
-12
-After Sorting :
-12
-23
-45
-6
 =====================================================================================================================================================*/
