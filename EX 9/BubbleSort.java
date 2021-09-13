@@ -90,27 +90,27 @@ After Sorting :
 45
 78
 
-C:\Users\jinu\JAVA PROGRAMS\Experiment 9>java Main
-Enter the number of elements : 4
-Enter 4 strings :
-r
-t
-q
-e
+C:\Users\jinu>cd C:\Users\jinu\JAVA PROGRAMS\git push\EX 9
+
+C:\Users\jinu\JAVA PROGRAMS\git push\EX 9>javac BubbleSort.java
+
+C:\Users\jinu\JAVA PROGRAMS\git push\EX 9>java Main
+Enter the number of elements : 3
+Enter 3 strings :
+Water
+Apple
+Watch
 After Sorting :
-e
-q
-r
-t
-Enter 4 integers with same number of digits :
-9
-3
-6
-1
+Apple
+Watch
+Water
+Enter 3 integers with same number of digits :
+24
+45
+26
 After Sorting :
-1
-3
-6
-9
+24
+26
+45
 
 =====================================================================================================================================================*/
