@@ -47,7 +47,7 @@ class Main{
 			System.out.println(s[i]);
 		Integer[] a = new Integer[n];
 
-		System.out.println("Enter "+n+" integers : ");
+		System.out.println("Enter "+n+" integers with same number of digits : ");
 		for(int i = 0 ; i < n ; i++)
 			a[i] = sc.nextInt();
 
@@ -79,7 +79,7 @@ a
 q
 w
 z
-Enter 4 integers :
+Enter 4 integers with same number of digits :
 34
 78
 45
@@ -102,7 +102,7 @@ e
 q
 r
 t
-Enter 4 integers :
+Enter 4 integers with same number of digits :
 9
 3
 6
