@@ -33,3 +33,4 @@ appwin.setSize(new Dimension(340, 260));    	//to set the size of frame
 appwin.setVisible(true);                    	//to set the frame visibility true
 }
 }
+Verified
