@@ -98,8 +98,8 @@ public void actionPerformed(ActionEvent ae) {
         		g.fillOval(290, 250, 15, 15);
         		g.fillOval(340, 250, 15, 15);
   
-        		//g.setColor(c1);	
-		g.drawLine(295, 300, 355, 300);
+        		// Arc for the sad
+        		g.drawArc(310, 300, 35, 35, 20, 150);
 							
 		}
 		else									//happy face for percentage >50									
@@ -116,7 +116,7 @@ public void actionPerformed(ActionEvent ae) {
         		
         		
 			// Arc for the smile
-        		g.drawArc(305, 315, 40, 10, 170, 170);
+        		g.drawArc(305, 300, 35, 15, 180, 180);
 		
 		}
 		
