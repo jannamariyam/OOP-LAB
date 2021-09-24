@@ -108,3 +108,4 @@ class MyWindowAdapter extends WindowAdapter {
 		System.exit(0);
 	} 
 }
+Verified
