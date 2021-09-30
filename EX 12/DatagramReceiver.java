@@ -10,3 +10,14 @@ public class DatagramReceiver{
 		ds.close();
 	}
 }
+/*
+Output:
+
+C:\Users\jinu>cd C:\Users\jinu\JAVA PROGRAMS\Experiment 12
+
+C:\Users\jinu\JAVA PROGRAMS\Experiment 12>javac DatagramReceiver.java
+
+C:\Users\jinu\JAVA PROGRAMS\Experiment 12>java DatagramReceiver
+
+Good morning
+*/
